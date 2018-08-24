@@ -104,7 +104,7 @@ The R script, 'run_analysis.R', downloaded the zip folder and unzipped it. It th
 2. The test data (testSet) was merged with the test subjects (testSubjects) and the test activity labels (testLabels)
 3. These training and test data sets were then merged to create one.
 4. The data set was consolidated by extracting the mean and standard deviation variables for each measurement whilst discarding the remaining variables.
-5. The activity labels were decoded into descriptive activity names e.g 1 was changed to WALKING
+5. The activity labels were decoded into descriptive activity names e.g 1 -> WALKING
 6. The variable names were made more descriptive by removing punctuation and lengthening any abbreviations e.g. tBodyAcc-mean()-X was changed to time Domain Body Accelerometer Mean X
 
 	a. t -> time Domain; f -> frequency Domain

@@ -106,6 +106,7 @@ The R script, 'run_analysis.R', downloaded the zip folder and unzipped it. It th
 4. The data set was consolidated by extracting the mean and standard deviation variables for each measurement whilst discarding the remaining variables.
 5. The activity labels were decoded into descriptive activity names e.g 1 was changed to WALKING
 6. The variable names were made more descriptive by removing punctuation and lengthening any abbreviations e.g. tBodyAcc-mean()-X was changed to time Domain Body Accelerometer Mean X
+
 	a. t -> time Domain; f -> frequency Domain
 
 	b. Acc -> Accelerometerl; Gyro -> Gyroscope
@@ -114,5 +115,5 @@ The R script, 'run_analysis.R', downloaded the zip folder and unzipped it. It th
 
 	d. Mag -> magnitude; freq -> Frequency
 
-       (e. Spaces were added between words to make the variable names easier to read)
+	(e. Spaces were added between words to make the variable names easier to read)
 7. A new data set was created by grouping by subject and then activity. The average for each variable was calculated and this was then saved to a text file called 'tidied_data.txt'.

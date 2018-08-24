@@ -108,4 +108,4 @@ mergedDataMeans <- mergedData %>%
         summarise_each(funs(mean))
 
 ## Create a new txt file containing this tidy data
-write.table(mergedDataMeans, "tidied_data.txt")
+write.table(mergedDataMeans, "tidied_data.txt", row.names=FALSE)
